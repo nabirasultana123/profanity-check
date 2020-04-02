@@ -1,0 +1,5 @@
+from profanity_check import predict,predict_prob
+x=predict(["Fake"])
+print("amount of badwords in a string",x)
+y=predict_prob(["Fake"])
+print("percentage of badness in the string",y)
